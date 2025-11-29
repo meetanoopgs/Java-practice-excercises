@@ -1,0 +1,151 @@
+driver.Navigate().GoToUrl("https://www.browserstack.com/");
+
+             IJavaScriptExecutor js = (IJavaScriptExecutor)driver;
+
+             js.ExecuteScript("scroll(0,300)");
+
+             Actions ac = new Actions(driver);
+
+            IWebElement live = driver.FindElement(By.CssSelector("div.product-cards-wrapper--click a[title='Live']"));
+            ac.MoveToElement(live).Build().Perform();
+
+            IWebElement automate = driver.FindElement(By.CssSelector("div.product-cards-wrapper--click a[title='App Automate']"));
+
+            automate.Click();
+
+            //Double click on element
+
+            IWebElement trialaction = driver.FindElement(By.XPath("//a[@id='free-trial-link-anchor']"));
+
+            ac.DoubleClick(trialaction);
+
+            driver.Quit();
+
+            //driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(20);
+
+            //driver.Navigate().GoToUrl("http://seleniumpractise.blogspot.com/2016/08/how-to-use-explicit-wait-in-selenium.html");
+
+            //driver.Navigate().GoToUrl("http://seleniumpractise.blogspot.com/2016/08/how-to-use-explicit-wait-in-selenium.html");
+
+            //driver.Navigate().GoToUrl("http://seleniumpractise.blogspot.com/2021/08/");
+
+            //driver.FindElement(By.XPath("//td[text()='Amazon']//preceding-sibling::td//input")).Click();
+
+            //driver.FindElement(By.XPath("//td[text()='Amazon']//following-sibling::td[3]")).Click();
+            //driver.FindElement(By.XPath("//td[text()='Jenkins']//following-sibling::td[3]")).Click();
+
+            //Actions action = new Actions(driver);
+
+            //driver.Navigate().GoToUrl("http://demo.guru99.com/test/drag_drop.html");
+
+            //Element which needs to drag.    
+            //IWebElement From = driver.FindElement(By.XPath("//*[@id='credit2']/a"));
+
+            //Element on which need to drop.
+            // IWebElement To = driver.FindElement(By.XPath("//*[@id='bank']/li"));
+
+            //Using Action class for drag and drop.
+
+
+            //Dragged and dropped.
+            //action.DragAndDrop(From, To).Build().Perform();
+            //action.DragAndDropToOffset(From, 140,35).Build().Perform();
+
+            //button[text()='Click me to start timer']
+
+            //table[@id='customers']  
+
+
+            //table[contains(@id,'cust')]
+
+            //columns
+            //table[contains(@id,'cust')]//th
+
+
+            //rows
+
+            //table[contains(@id,'cust')]//tr
+
+            // only second
+
+            //table[contains(@id,'cust')]//tr//td[2]
+
+
+            //country
+
+            //table[contains(@id,'cust')]//tr//td[4]
+
+
+            //click "know more" link
+
+            // IWebElement element = driver.FindElement(By.XPath("td[text()='Selenium']//following-sibling::td[3]"));
+
+            //IWebElement element = driver.FindElement(By.XPath("//td[text()='Selenium']//preceding-sibling::td//input"));
+
+            //IWebElement element = driver.FindElement(By.XPath("td[text()='Jenkins']//following-sibling::td//a"));
+
+            // element.Click();
+
+            //Console.WriteLine(text);
+
+            //element.Click();
+
+            // WebDriverWait wait = new WebDriverWait(driver, TimeSpan.FromSeconds(20));
+
+            //IWebElement element = wait.Until(ExpectedConditions.ElementIsVisible(By.XPath("//p[text()='WebDriver']")));
+
+            // IWebElement element = driver.FindElement(By.XPath("//p[text()='WebDriver']"));
+
+            // bool status = element.Displayed;
+
+            // if(status)
+            // {
+            //Console.WriteLine("element is displayed");
+            //}
+
+            //else
+            //{
+            /// Console.WriteLine("element is not displayed");
+            // }
+            //driver.Navigate().GoToUrl("https://demoqa.com/select-menu");
+            // IWebElement dropdown = driver.FindElement(By.Id("cars"));
+            // SelectElement selectElement = new SelectElement(dropdown);
+            // selectElement.SelectByValue("saab");
+            //selectElement.SelectByValue("audi");
+            // selectElement.DeselectAll();
+
+
+            //selectElement.SelectByValue("volvo");
+
+
+            //Action class example
+
+            // driver.Manage().Window.Maximize();
+
+            //driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(20);
+
+            // driver.Navigate().GoToUrl("https://www.browserstack.com/");
+
+            // IJavaScriptExecutor js = (IJavaScriptExecutor)driver;
+
+            // js.ExecuteScript("scroll(0,300)");
+
+            // Actions ac = new Actions(driver);
+
+            //IWebElement live = driver.FindElement(By.CssSelector("div.product-cards-wrapper--click a[title='Live']"));
+            //ac.MoveToElement(live).Build().Perform();
+
+            //IWebElement automate = driver.FindElement(By.CssSelector("div.product-cards-wrapper--click a[title='App Automate']"));
+            //automate.Click();
+
+            //Double click on element
+
+            // IWebElement trialaction = driver.FindElement(By.XPath("//a[@id='free-trial-link-anchor']"));
+
+            // ac.DoubleClick(trialaction);
+
+            //driver.Quit();
+            //SelectElement selectElement =
+        }
+    }
+}

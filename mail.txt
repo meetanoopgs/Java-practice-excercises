@@ -1,0 +1,55 @@
+ drag and drop
+
+
+//Actions action = new Actions(driver);
+
+            //driver.Navigate().GoToUrl("http://demo.guru99.com/test/drag_drop.html");
+
+            //Element which needs to drag.    
+            //IWebElement From = driver.FindElement(By.XPath("//*[@id='credit2']/a"));
+
+            //Element on which need to drop.
+            // IWebElement To = driver.FindElement(By.XPath("//*[@id='bank']/li"));
+
+            //Using Action class for drag and drop.
+
+
+            //Dragged and dropped.
+            //action.DragAndDrop(From, To).Build().Perform();
+            //action.DragAndDropToOffset(From, 140,35).Build().Perform();
+
+
+Hi Syam/Santhanam
+
+
+I hope you are doing well!
+
+
+
+
+As a part of the formalities needed for the completion of your course please help me with an acknowledgment for the following! (Reply All)
+
+
+
+your course got completed on (Date - 12/04/2022. 
+
+
+
+Thanks for choosing Besant technologies for your learning needs. Do let me know if you have any doubts shortly in the near future. I’d like to ask you a favor,  would you mind taking a few minutes to write a review for me, please?
+
+
+
+Your comments help others know what to expect when they’re looking for the service we offer.
+ 
+
+It was a good month of interaction with you where I learned a lot and I hope you did too, I wish you all the best from my side and hope to see you soon in the industry space.
+
+ 
+
+Thank you for your patience and corporation
+
+
+
+Regards,
+
+Anoop
